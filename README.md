@@ -25,13 +25,6 @@
 * 설비관리
 ```
 
-## <span style="color:red">차별점</span>
-### 저희는 학원에서 배우기만 한 기술스택이 아닌, 저희 스스로가 학습하여 새로운 기술스택을 활용해보았습니다. 
-### 이 프로젝트는 Spring Boot, thymeLeaf를 활용하여 서비스를 구축하였습니다. 
-### 또한 저 개인적으로, 마크다운 이라는 언어를 스스로 공부하여 깃허브 데스크탑과 연동해 포트폴리오를 깃허브에 업로드 했습니다. 
-
-
-
 ## 사용기술 및 개발환경
 
 <img src="/개발환경.jpg" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
@@ -77,7 +70,7 @@
 
 
 # 페이지 소개
-## 1.1 영업관리 - 주문서 조회
+## 1.1.1 영업관리 - 주문서 조회
 <img src="/images/영업-주문서조회.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 영업관리의 주문서 조회입니다. 
@@ -85,7 +78,7 @@
 ##### 목록의 주문 코드를 더블클릭하게 되면 해당 주문의 상세 주문 내역을 열람할 수 있는 모달이 출력됩니다. 
 ##### 금일의 매출 부분입니다. 구글차트를 통해 차트를 표현했으며, 현재 차트가 표시되지 않는 이유는 당일날의 매출이 없기 때문입니다. 
 
-## 2.1 생산관리 - 계획 등록
+## 1.2.1 생산관리 - 계획 등록
 <img src="/images/생산-계획등록.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 생산 계획 관리입니다.
@@ -94,7 +87,7 @@
 ##### 주문서 목록이 출력되며, 주문코드를 선택하면 주문목록을 조회해옵니다.
 ##### 필수 내용에 맞게 입력한 후, 계획등록 버튼을 클릭하면 확인창이 출력됩니다.
 
-## 2.2 생산관리 - 지시 등록
+## 1.2.2 생산관리 - 지시 등록
 <img src="/images/생산-지시등록.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 생산 지시 등록입니다.
@@ -105,7 +98,7 @@
 ##### 자재코드 클릭시, 공정에 투입할 자재를 선택할 수 있는 자재 LOT 목록을 출력합니다.
 ##### 등록된 자재를 선택 및 수량 입력 후 생산지시 등록을 하게 되면 확인창이 출력되고 승인을 하면 생산지시 등록이 완료됩니다.
 
-## 2.3 생산관리 - 생산
+## 1.2.3 생산관리 - 생산
 <img src="/images/생산-생산.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 생산관리의 생산입니다.
@@ -117,7 +110,7 @@
 ##### (생산시작시 프로시저를 통해 생산이 시작되어지고 , 이전 공정의 합격량이 일정량을 넘기면 다음 공정이 진행됩니다.)
 
 
-## 3.1 원자재 - 발주등록
+## 1.3.1 원자재 - 발주등록
 <img src="/images/자재-발주등록.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 발주등록 페이지 입니다.
@@ -126,7 +119,7 @@
 ##### 선택버튼클릭시 부족한원자재를 기반으로 현재고를 파악하여 계획대비 필수량과 발주량을 확인할수있으며 발주신청이 가능합니다.
 ##### 저장버튼을 누르면 등록 알림창이뜨고, 저장이 완료되는순간 프로시저를 이용하여 원자재 발주코드와 발주상세코드를 자동 생성하도록 구현하였습니다.
 
-## 3.2 원자재 - 입고등록
+## 1.3.2 원자재 - 입고등록
 <img src="/images/자재-입고등록.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 입고등록 페이지 입니다.
@@ -135,7 +128,7 @@
 ##### 입고등록페이지에 추가된원자재는 입고예정목록 모달창에선 조회할수없으며 체크박스를 선택후 삭제버튼을 클릭하면 다시 조회가 가능합니다.
 ##### 저장버튼을 클릭하면 승인알림창이뜨며, 승인시 프로시저를 통해 입고예정인 원자재를 입고처리할수있으며, 입고예정에서는 삭제됩니다.
 
-## 4.1 품질관리 - 검사등록
+## 1.4.1 품질관리 - 검사등록
 <img src="/images/자재-입고등록.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 품질검사 관리 페이지 입니다.
@@ -148,7 +141,7 @@
 ##### 불량량까지 입력된 발주정보는 불량코드를 등록할 수 있습니다.
 ##### 완료버튼을 클릭 시 프로시저를 이용해 검사한 자재들의 품질정보가 입력됨과 함께 합격량은 자재LOT번호를 부여받고 입고예정량으로 들어가게 됩니다.
 
-## 5.1 설비관리 - 설비 실시간 상태
+## 1.5.1 설비관리 - 설비 실시간 상태
 <img src="/images/설비-실시간.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 설비 실시간 상태 페이지 입니다.
@@ -157,70 +150,279 @@
 ##### 설비 실시간 생산량에 경우에도 확인하고 싶은 라인을 클릭할 경우 생산이 시작된  해당 라인의 각 공정들의 생산량을 보여줍니다.
 
 # 소스코드 소개
-## 2.1 출퇴근시간을 계산해서 percent로 보여주는 쿼리
+## 2.1 생산관리 - 생산 진행 
 
 ```xml:workerAttendance_mapper.xml
 
-<select id="getPercent" resultType="com.yedam.tfprj.admin.workerAttendance.service.WorkerAttendanceVO">
-        SELECT W.WORKER_ID,
-               S.ATT_DT,
-               W.GOING_TIME,
-               QUITTING_TIME,
-               TO_DATE(S.IN_TIME, 'YY-MM-DD HH24:MI') AS inMTime,
-               S.OUT_TIME,
-               ROUND(((current_date - TO_DATE(S.IN_TIME, 'YY-MM-DD HH24:MI')) *24)/((QUITTING_TIME - GOING_TIME) *24),2) * 100  AS percent,
-               ROUND((W.QUITTING_TIME - current_date) * 24 * 60 * 60, 2) AS getMTime
-        FROM WORKSHEET W, STAFF_ATTENDANCE S
-        WHERE W.WORKER_ID = S.WORKER_ID
-               AND S.ATT_DT = TO_CHAR(current_date, 'YY-MM-DD')
-               AND TO_CHAR(W.GOING_TIME, 'YY-MM-DD') = S.ATT_DT
-               AND W.WORKER_ID = #{workerId}
-    </select>
+create or replace PROCEDURE "PROC_PROCESS" IS
+
+    v_nextLine  proc_prc.line_turn%TYPE;
+    v_nextProc  proc_prc.proc_cd%TYPE;
+    v_random    number;
+
+    v_stop number;
+
+    CURSOR cur_proc IS
+        SELECT DISTINCT
+        prc.proc_prcd,
+        prc.proc_cd,
+        prc.line_turn,
+        prc.proc_qty prc_qty,
+        st.proc_qty st_qty,
+        err.err_qty ,
+        pc.eq_cd,
+        st.proc_passqty pass_qty,
+        cm.comm_cd 
+    --INTO p_PROC_PRCD,p_LINE_TURN,p_TPROC_QTY,p_PROC_QTY,p_CD_NM
+    FROM
+        proc_prc   prc,
+        proc_st    st,
+        proc_err   err,
+        process    pc,
+        comm_code  cm
+    WHERE
+            st.line_turn = prc.line_turn
+        AND st.proc_prcd = prc.proc_prcd
+        AND err.line_turn = prc.line_turn
+        AND err.proc_prcd = prc.proc_prcd
+        AND cm.comm_cd = st.proc_st
+        AND pc.proc_cd = prc.proc_cd
+    ORDER BY 3;
+
+BEGIN
+
+
+    --IF THEN
+    FOR proc_list IN cur_proc LOOP
+
+            SELECT 
+            COUNT(*)
+            INTO v_stop
+            FROM
+                 eq_ina  
+            WHERE eq_cd= proc_list.eq_cd AND EQ_INAED IS NULL;
+
+        IF proc_list.comm_cd = 'PLAN01' AND v_stop = 0 THEN 
+
+         -- 일정 갯수 이상이되면 다음 공정 start
+            IF proc_list.pass_qty + proc_list.err_qty >= 3 THEN
+                SELECT nextLine, nextPrcd
+                INTO v_nextLine,v_nextProc
+                 FROM(
+                         SELECT A.LINE_TURN,
+                                A.PROC_PRCD,
+                                LEAD(A.line_turn) OVER (ORDER BY A.LINE_TURN) nextLine,
+                                LEAD(A.proc_prcd) OVER (ORDER BY A.LINE_TURN) nextPrcd
+                         FROM(                    
+                                            SELECT st.line_turn,
+                                                   ST.PROC_PRCD
+                                            FROM PROC_PRC PRC, PROC_ST ST, LINE LI
+                                             where   ST.line_turn = PRC.line_turn
+                                             and   ST.proc_prcd = PRC.proc_prcd
+                                             and   LI.LINE_TURN = PRC.LINE_TURN
+                                             and   li.line_cd= ( SELECT LI.LINE_CD
+                                                                    FROM PROC_PRC PRC, PROC_ST ST, LINE LI
+                                                                         where   ST.line_turn = PRC.line_turn
+                                                                         and   ST.proc_prcd = PRC.proc_prcd
+                                                                         and   LI.LINE_TURN = PRC.LINE_TURN
+                                                                         and   ST.LINE_TURN = proc_list.line_turn
+                                                                         and   ST.proc_prcd = proc_list.proc_prcd
+                                                                         and   li.proc_cd= proc_list.proc_cd
+                                                                    ) 
+                                )A
+                      )
+               WHERE   LINE_TURN = proc_list.line_turn AND proc_prcd = proc_list.proc_prcd;
+            END IF;
+            --IF proc_list.st_qty = 0 THEN
+            IF proc_list.pass_qty + proc_list.err_qty = 0 THEN
+            -- 생산량 + 불량량 = 0일경우 작업시간 기입
+                UPDATE proc_prc
+                SET
+                    proc_sttm = systimestamp
+                WHERE 
+                        line_turn = proc_list.line_turn
+                    AND proc_prcd = proc_list.proc_prcd;
+            END IF;
+            -- IF proc_list.st_qty >= proc_list.prc_qty  THEN
+            IF proc_list.pass_qty + proc_list.err_qty >= proc_list.prc_qty  THEN
+            --  현재공정 생산 종료(생산량 + 불량량 = 투입량)
+                UPDATE proc_st
+                SET
+                    PROC_QTY = PROC_PASSQTY
+                WHERE
+                        line_turn = proc_list.line_turn
+                    AND proc_prcd = proc_list.proc_prcd;
+
+                UPDATE proc_st
+                SET
+                    proc_st = 'PLAN02'
+                WHERE
+                        line_turn = proc_list.line_turn
+                    AND proc_prcd = proc_list.proc_prcd;
+                -- 현재 공정에 합격량을 다음공정 투입량 변경  
+                UPDATE proc_PRC
+                SET
+                        PROC_QTY = (SELECT PROC_PASSQTY FROM PROC_ST
+                                    WHERE line_turn = proc_list.line_turn
+                                      AND proc_prcd = proc_list.proc_prcd)
+                WHERE
+                        line_turn = v_nextLine
+                    AND proc_prcd = v_nextProc;                
+
+
+                -- 종료시간 기입
+                UPDATE proc_prc
+                SET
+                    proc_edtm = systimestamp
+                WHERE 
+                        line_turn = proc_list.line_turn
+                    AND proc_prcd = proc_list.proc_prcd;    
+
+                UPDATE proc_err
+                SET
+                    err_cd = 'ERRDEBEXP'
+                WHERE 
+                        line_turn = proc_list.line_turn
+                    AND proc_prcd = proc_list.proc_prcd;  
+
+
+            -- 생산량 증가     
+            ELSE
+
+                SELECT TRUNC(DBMS_RANDOM.VALUE(1, 100))
+                INTO v_random
+                FROM DUAL;
+
+                IF v_random <= 5 THEN 
+                    -- 불량량 증가
+                    UPDATE proc_err
+                    SET
+                        err_qty = err_qty + 1
+                    WHERE
+                            line_turn = proc_list.line_turn
+                        AND proc_prcd = proc_list.proc_prcd;
+
+                ELSE
+                    -- 합격량 증가
+                    UPDATE proc_st
+                    SET
+                        PROC_PASSQTY = PROC_PASSQTY + 1
+                    WHERE
+                            line_turn = proc_list.line_turn
+                        AND proc_prcd = proc_list.proc_prcd;
+                END IF;
+
+                -- 다음 공정 START    
+                UPDATE proc_st 
+                   SET proc_st = 'PLAN01'
+                 WHERE line_turn = v_nextLine AND proc_prcd = v_nextProc AND proc_st = 'PLAN00';
+
+
+                END IF;
+
+
+            END IF;
+
+      --  END IF;
+
+    END LOOP;
+
+    COMMIT;
+END;
 ```
 
-## 2.2 회원, 비회원의 매출을 구분하여 보여주는 쿼리
+## 2.2 원자재 관리 - 발주등록 프로시져
 
 ```xml:workerAttendance_mapper.xml
 
-<select id="findMemNonMem" resultType="map">
-        SELECT CASE WHEN MEMBER_ID = '0' THEN '비회원' ELSE '회원' END AS "member", SUM(PAYMENT_AMOUNT) AS "paymentAmount"
-        FROM PAYMENT
-        where TO_CHAR(PAYMENT_DATE, 'YYYY-MM-DD') BETWEEN #{firstDate} AND #{lastDate}
-        <if test='day != 0'>
-            AND TO_CHAR(PAYMENT_DATE, 'D') = #{day}
-        </if>
-        GROUP BY CASE WHEN MEMBER_ID = '0' THEN '비회원' ELSE '회원' END
-    </select>
+create or replace PROCEDURE "INSERT_PO" (
+                                       p_param VARCHAR2,
+                                       p_mt_cd VARCHAR2,
+                                       p_mt_nm VARCHAR2,
+                                       p_vdr_nm VARCHAR2,
+                                       p_req_dt VARCHAR2,
+                                       P_res_qty NUMBER)
+IS
+            /* 업체코드 담을 변수 */
+            v_vdr_cd VARCHAR2(100);
+            /* 담당자 코드 담을 변수 */
+            v_mgr_cd NUMBER := 1031;
+
+
+            /* 발주 코드 담을 변수 */
+            v_get_po mt_po.po_cd%type;
+
+            v_result NUMBER;
+BEGIN
+        /* 1. SELECT = 업체코드*/
+        SELECT VDR_CD
+        INTO   V_VDR_CD
+        FROM   VENDOR
+        WHERE  VDR_NM  = p_vdr_nm;
+
+        /* 2. SELECT = 변수 */
+        SELECT COUNT(*)
+        INTO v_result
+        FROM MT_PO
+        WHERE po_par = p_param;
+
+         if  v_result = 1 then
+
+                    /* 3. SELECT = 발주코드 */
+                    SELECT distinct PO_CD
+                    INTO v_get_po
+                    FROM MT_PO
+                    WHERE po_par = p_param;
+
+            INSERT INTO MT_PODTL VALUES (SEQ_PODTL_CREATER.nextval, v_get_po, p_mt_cd, P_RES_QTY, TO_DATE(P_REQ_DT,'YYYY-MM-DD'));
+        ELSE 
+
+            v_get_po := GET_PO;
+
+
+            INSERT INTO MT_PO VALUES (v_get_po, SYSDATE, V_MGR_CD, p_param);
+            INSERT INTO MT_PODTL VALUES (SEQ_PODTL_CREATER.nextval, v_get_po, p_mt_cd, P_RES_QTY, TO_DATE(P_REQ_DT,'YYYY-MM-DD'));
+        END IF;
+
+
+
+END INSERT_PO;
 
 ```
 
-## 2.3 현재 출근한 근무자의 정보를 조회할 수 있는 쿼리
+## 2.3 품질 관리 - 검사 결과 등록 
 
 ```xml:workerAttendance_mapper.xml
-<select id="getNowWorker" resultType="com.yedam.tfprj.admin.workerAttendance.service.WorkerAttendanceVO">
-        SELECT A.WORKER_ID,
-               A.IN_TIME,
-               A.OUT_TIME,
-               A.IS_LATE,
-               A.IS_ABSENCE,
-               I.WORKER_NAME, W.GOING_TIME, W.QUITTING_TIME, A.ATT_DT ,I.POSITION_CD, I.USERTYPE, I.STARTDAY, I.ALLPAY
-        FROM STAFF_ATTENDANCE A
-                 INNER JOIN STAFF_INFORMATION I
-                            ON A.WORKER_ID = I.WORKER_ID
-                 INNER JOIN WORKSHEET W
-                            ON I.WORKER_ID = W.WORKER_ID
-        WHERE TO_CHAR(current_date, 'yy-MM-dd hh24:mi') BETWEEN A.IN_TIME AND TO_CHAR(W.QUITTING_TIME, 'yy-MM-dd hh24:mi')
-          AND TO_DATE(A.ATT_DT, 'yy-MM-dd') = TO_DATE(current_date, 'yy-MM-dd')
-          AND A.OUT_TIME IS NULL
-          and to_char(w.going_time, 'yy-MM-dd') = a.att_dt
-    </select>
+create or replace PROCEDURE "QUAL_MT_INSERT" (
+                                                    p_po_cd VARCHAR2                                                    
+                                                )
+IS
+        V_CHK_CD mt_chk_dtl.chk_cd%type;
+BEGIN
+
+        --자재품질검사 INSERT
+        INSERT INTO MT_CHK (po_cd, chk_mngr, chk_insp)VALUES (p_po_cd, '1051', 'MTRL01');
+
+        FOR i IN (SELECT MT_CD FROM MT_PODTL WHERE PO_CD = p_po_cd)
+        LOOP
+            V_CHK_CD := GET_CK;
+                --자재품질검사상세 INSERT
+             INSERT INTO MT_CHK_DTL (CHK_CD, PO_CD, MT_CD ,CHK_DTL_INSP)VALUES (V_CHK_CD, p_po_cd, i.mt_cd, 'MTRL01');
+
+                --자재불량내역 INSERT
+             INSERT INTO MT_ERRLIST (CHK_CD, MT_CD)VALUES (V_CHK_CD, i.mt_cd);
+        END LOOP;
+
+        COMMIT;
+
+
+
+END QUAL_MT_INSERT;
 ```
 
 
 
 
-#### 해당 내용은 프로젝트의 일부분을 소개한 것입니다. 포트폴리오를 더 상세하게 조회하고 싶으시면
-#### 메인 브랜치의 pdf를 참고 해 주시면 감사하겠습니다.
 
 #### 감사합니다.
 
