@@ -34,42 +34,45 @@
 
 ## 사용기술 및 개발환경
 
-<img src="https://ifh.cc/v-cg6aQf" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/개발환경.jpg" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <hr>
 
 |Category|Detail|
 |:---:|:---:|
 |OS|Windows 10 pro|
-|개발언어|Java(11), Servlet, SpringBoot, Mybatis, HTML5, Javascript, CSS|
+|개발언어|Java(11), Servlet, SpringMVC2, Mybatis, HTML5, Javascript, CSS|
 |데이터베이스|Oracle Database Express Edition 11g Release 2|
 |서버|TOMCAT 9.0|
-|IDE|IntelliJ|
-|빌드 배포|Gradle, jenkins|
+|IDE|Eclipse IDE|
+|빌드 배포|Maven, jenkins|
 |테스트 툴|Junit|
 |프로세스|Intel(R) Core  i7-10700 CPU @ 2.90GHz|
 |메모리|16GB RAM|
-|보조 기억장치|SSD 250GB|
+|보조 기억장치|SSD 512GB|
 |형상관리|GitHub|
-|협업|[Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)|
 
 ## 프로젝트 기능 구현
 
 <ul>
-  <li>근무자 관리</li>
-    <ul><li>근무자 상태 조회 및 변경</li></ul>
-    <ul><li>근무자 등록 및 수정, 총 근무자 엑셀 다운로드</li></ul>
-    <ul><li>현재 출근한 근무자 조회, 주간근무표 조회</li></ul>
-    <ul><li>월간 근무표 CRUD </li></ul>
-    <ul><li>근무자 출퇴근</li></ul>
-  <li>매출관리</li>
-    <ul><li>금일 매출 조회</li></ul>
-    <ul><li>비회원/회원 매출 조회</li></ul>
-    <ul><li>요일별 평균 매출 조회</li></ul>
-    <ul><li>온/오프라인 구분 매출 조회</li></ul>
-  <li>TodoList 관리</li>
-    <ul><li>TodoList CRUD</li></ul>
-    <ul><li>할 일의 사진 업로드 및 댓글 CRUD</li></ul>
-    <ul><li>체크리스트 체크, 해결, 삭제</li></ul>
+  <li>영업관리</li>
+    <ul><li>주문서 조회</li></ul>
+    <ul><li>BOM 관리</li></ul>
+    <ul><li>LOT 재고 조회</li></ul>
+    <ul><li>안전 재고 관리</li></ul>
+    <ul><li>출고 관리</li></ul>
+  <li>자재관리</li>
+    <ul><li>발주 및 입고 관리</li></ul>
+    <ul><li>안전 재고 관리</li></ul>
+  <li>생산관리</li>
+    <ul><li>생산 계획 및 지시 관리</li></ul>
+    <ul><li>생산 및 공정 실적 관리</li></ul>
+    <ul><li>공정 및 공정 흐름도 관리</li></ul>
+  <li>품질관리</li>
+    <ul><li>품질 검사 등록 및 관리</li></ul>
+    <ul><li>품질 검사 결과 및 불량 내역 조회</li></ul>
+  <li>설비관리</li>
+    <ul><li>설비 점검 관리</li></ul>
+    <ul><li>설비 실시간 온도 및 생산량 상태 조회</li></ul>
 </ul>
 
 
