@@ -2,29 +2,27 @@
 ### 예담직업전문학교(교육기관)에서 팀 단위로 실시한 최종프로젝트 결과물입니다.
 ### 저희팀은 'MES(생상공정 관리 시스템)' 이라는 주제로 프로젝트를 만들게 되었습니다.
 
-## <a href="https://youtu.be/wsCW0oRwgWA?t=8195" target="_blank">시연영상 바로 보기 ▶️</a>
 ## <a href="https://github.com/Hyeonjinkk/yFactory" target="_blank">전체 프로젝트 바로 보기 ▶️</a>
 
 ## 개요
-### BAT-HUB란?
-* 스크린 야구장에 필요한 서비스를 통합적으로 제공하는 관리 시스템
+### MES란?
+* MES는 제품주문에 의한 착수에서 완성품의 품질검사까지 전 생산활동을 관리하는 시스템으로 생산실적, 제품 품질정보 등을 실시간으로 수집하여 고품질의 수익 지향적 생산체제를 갖추게 하는 **통합 생산관리시스템**
 
 ## 설계의 주안점
-1. <b>스프링 시큐리티</b>를 이용한 로그인으로 유저 인증과 권한 검사, 비밀번호 암호화, 보안성 강화
-2. <b>Lombok</b>을 이용하여 어노테이션 설정으로 간단하게 VO 객체를 생성하여 코드를 간결화 시켜줌.
-3. <b>Google Chart</b>를 이용하여 각 매출에 반영되는 그래프를 가시적으로 표현함.
-4. <b>FullCalendar</b> 라이브러리를 이용해 월간 근무표 생성, 수정, 삭제할 수 있는 캘린더를 구현함.
+1. <b>Lombok</b>을 이용하여 어노테이션 설정으로 간단하게 VO 객체를 생성하여 코드를 간결화 시켜줌.
+2. <b>Controller</b>을 이용하여 어노테이션 설정으로 페이지 Redirection 처리.
+3. <b>RestController</b> 어노테이션 설정으로 <b>Script</b>내에서 비동기 처리를 @Controller와 구분하여 개발 효율성 증대.
+4. <b>Toast UI Chart</b> 라이브러리를 이용해 설비 온도 상태와 생산 시작 시 실시간으로 생산량 증가를 체크하도록 구현.
 5. <b>AJAX</b>를 통해 페이지 로딩속도 및 클라이언트에게 편리성 제공.
 6. <b>BootStrap</b>을 활용한 반응형 페이지 제작 및 Modal 활용.
-7. <b>DevTools</b>의 Live Reload 기능 활성화를 통한 생산성 및 개발 효율성 증대.
-8. <b>thymeleaf-layout-dialect</b> 라이브러리를 이용해 중복 코드를 최소화.
+7. <b>Jasper Studio</b> 라이브러리를 이용해 페이지 내 PDF출력물 형식 구현.
 ## Contens
 ```sh
-* 예약
-* 매장관리
-* 매출관리
-* 커뮤니티
-* 회원관리
+* 영업관리
+* 자재관리
+* 생산관리
+* 품질관리
+* 설비관리
 ```
 
 ## <span style="color:red">차별점</span>
@@ -36,7 +34,7 @@
 
 ## 사용기술 및 개발환경
 
-<img src="/stack.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="https://ifh.cc/v-cg6aQf" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <hr>
 
 |Category|Detail|
