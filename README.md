@@ -390,7 +390,7 @@ END INSERT_PO;
 
 ```
 
-## 2.3 품질 관리 - 검사 결과 등록 
+## 2.3 품질 관리 - 검사 결과 등록 프로시져
 
 ```xml:workerAttendance_mapper.xml
 create or replace PROCEDURE "QUAL_MT_INSERT" (
