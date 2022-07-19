@@ -1,9 +1,9 @@
-# 예담 최종프로젝트, 'BAT-HUB'
-### 예담직업전문학교에서 팀 단위로 실시한 최종프로젝트 결과물입니다.
-### 저희팀은 '스크린야구 예약 시스템' 이라는 주제로 프로젝트를 만들게 되었습니다.
+# 예담 최종프로젝트, 'YFactory'
+### 예담직업전문학교(교육기관)에서 팀 단위로 실시한 최종프로젝트 결과물입니다.
+### 저희팀은 'MES(생상공정 관리 시스템)' 이라는 주제로 프로젝트를 만들게 되었습니다.
 
 ## <a href="https://youtu.be/wsCW0oRwgWA?t=8195" target="_blank">시연영상 바로 보기 ▶️</a>
-## <a href="https://github.com/YOONHEECHEOL/tfprj" target="_blank">전체 프로젝트 바로 보기 ▶️</a>
+## <a href="https://github.com/Hyeonjinkk/yFactory" target="_blank">전체 프로젝트 바로 보기 ▶️</a>
 
 ## 개요
 ### BAT-HUB란?
